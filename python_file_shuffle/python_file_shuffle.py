@@ -4,7 +4,10 @@ import os, shutil, random, tempfile
 def shuffle_file(src, dst):
     lst_to_shuffle = [os.path.join(src, filename) for filename in os.listdir(src)]
     save_path = dst
-    os.mkdir(save_path)
+    if os.path.exists(save_path):
+        pass
+    else:
+        os.mkdir(save_path)
 
     shuffled_lst = []
 
