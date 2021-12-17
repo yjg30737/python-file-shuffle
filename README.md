@@ -23,7 +23,9 @@ New files
 
 ![image](https://user-images.githubusercontent.com/55078043/146478690-93741aba-c794-4315-9a7b-d8acf7c62a3b.png)
 
-You can clearly see that files' name were modified. by the way, original files are remained in src directory also.
+You can clearly see that files' name were modified. 
+
+By the way, original files are remained in src directory also.
 
 
 
